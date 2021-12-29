@@ -9,9 +9,9 @@
 </head>
 <body>
 <div id="header">
-	
-</div>
-	
+</div>	
+
+<% arr.forEach(function(data){ %>
 	<div id="container">
 
 		<div class="boxes">
@@ -20,7 +20,7 @@
 			</div>
 
 			<div class="title bcclr">
-				Project Name <br>
+				<%= data %> <br> 
 				Frontend <br>
 				Remote sept'21-oct'21
 			</div>
@@ -35,8 +35,11 @@
 		</div>
 
 
+	</div>
+<% }); %>
 
-		
+	
+	
 
 
 	</div>
